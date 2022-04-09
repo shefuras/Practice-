@@ -13,17 +13,21 @@ public class Condition {
         int nuest = 200;
         if (bts <= 600 | nuest < 600) {
             System.out.println("buy a concert ticket");
-        } else if (bts > 1000); {
+        } else if (bts > 1000) ;
+        {
             System.out.println("do not buy the ticket");
-        } if (bts == 600); {
+        }
+        if (bts == 600) ;
+        {
             System.out.println("you need to save more money to buy a ticket");
-        } if (nuest<=200) {
+        }
+        if (nuest <= 200) {
             System.out.println("go to nuest concert instead of bts");
         }
-        int monstax =500;
+        int monstax = 500;
         if (monstax == 1000) {
             System.out.println("I can't afford the concert ticket");
-        } else if (monstax != 1000){
+        } else if (monstax != 1000) {
             System.out.println("I will be able to afford the ticket ");
         } else if (bts < 1000 && monstax >= 500) {
             System.out.println("I'll be able to attend both the concerts");
@@ -41,7 +45,7 @@ public class Condition {
         int smallfish = 5;
         if (bigfish != 3 | smallfish < 5) {
             System.out.println("Bhaia and Bhabi's hard work will go to waste");
-        } else if (bigfish >= 3 && smallfish >= 5){
+        } else if (bigfish >= 3 && smallfish >= 5) {
             System.out.println("Bhaia and Bhabi will be elated");
         } else if (bigfish > 5) {
             System.out.println("Bhabi will cook the fish for Sehri");
@@ -68,5 +72,4 @@ public class Condition {
         }
 
     }
-
 }
